@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements and Forms</title>
+</head>
+<body>
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List (Roman Numerals)</h2>
+    <ol type="I">
+        <li>Kenya</li>
+        <li>South Africa</li>
+        <li>Namibia</li>
+        <li>Uganda</li>
+        <li>Nigeria</li>
+    </ol>
+    
+    <!-- External Image from Pexels -->
+    <h2>External Image</h2>
+    <img src="https://images.pexels.com/photos/12920348/pexels-photo-12920348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Image of a grey subaru impreza" width="500">
+    
+    <!-- Contacts Table -->
+    <h2>Contacts Table</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>123 Nairobi</td>
+            <td>+123456789</td>
+            <td>john@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Mohammed Moha</td>
+            <td>456 Nakuru</td>
+            <td>+987654321</td>
+            <td>moha@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Power Kinuthia</td>
+            <td>789 Ibadan</td>
+            <td>+456123789</td>
+            <td>kinuthia@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Bongi Sibongile</td>
+            <td>321 Joburg</td>
+            <td>+852963741</td>
+            <td>bongi@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Chukwuemeka Seye</td>
+            <td>465 Port Harcout</td>
+            <td>+741852963</td>
+            <td>seye@gmail.com</td>
+        </tr>
+    </table>
+    
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male"> Male
+        <input type="radio" id="female" name="gender" value="female"> Female
+        <br><br>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select a country</option>
+            <option value="Kenya">Kenya</option>
+            <option value="SA">SA</option>
+            <option value="Namibia">Namibia</option>
+        </select>
+        <br><br>
+
+        <label>Role:</label>
+        <input type="checkbox" name="role" value="Frontend"> Frontend
+        <input type="checkbox" name="role" value="Backend"> Backend
+        <input type="checkbox" name="role" value="Quality"> Quality
+        <br><br>
+
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
